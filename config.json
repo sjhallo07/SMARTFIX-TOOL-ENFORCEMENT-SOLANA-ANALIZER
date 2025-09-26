@@ -1,0 +1,29 @@
+{
+    "networks": {
+        "mainnet": {
+            "name": "Mainnet",
+            "url": "https://api.mainnet-beta.solana.com",
+            "ws_url": "wss://api.mainnet-beta.solana.com"
+        },
+        "testnet": {
+            "name": "Testnet", 
+            "url": "https://api.testnet.solana.com",
+            "ws_url": "wss://api.testnet.solana.com"
+        },
+        "devnet": {
+            "name": "Devnet",
+            "url": "https://api.devnet.solana.com",
+            "ws_url": "wss://api.devnet.solana.com"
+        }
+    },
+    "output": {
+        "logs_dir": "logs",
+        "reports_dir": "reports",
+        "formats": ["json", "csv", "html"]
+    },
+    "analysis": {
+        "max_retries": 3,
+        "timeout": 30,
+        "rate_limit_delay": 0.1
+    }
+}
